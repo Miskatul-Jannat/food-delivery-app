@@ -13,6 +13,11 @@ class AppWidget {
 
   static TextStyle lightTextFieldStyle() {
     return TextStyle(
-        color: Colors.black38, fontSize: 14, fontWeight: FontWeight.w500);
+        color: Colors.black38, fontSize: 15, fontWeight: FontWeight.w500);
+  }
+
+  static TextStyle semiBoldTextFieldStyle() {
+    return TextStyle(
+        color: Colors.black, fontSize: 18, fontWeight: FontWeight.w500);
   }
 }
