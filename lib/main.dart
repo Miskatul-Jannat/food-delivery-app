@@ -1,4 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
+import 'package:food_delivery_app/pages/bottomnav.dart';
 import 'firebase_options.dart';
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/pages/home.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Home(),
+      home: BottomNav(),
     );
   }
 }
